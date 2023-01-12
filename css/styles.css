@@ -570,7 +570,7 @@ progress {
 
 .list-inline {
   padding-left: 0;
-  list-style: none;
+  list-style: circle;
 }
 
 .list-inline-item {
@@ -7779,6 +7779,11 @@ textarea.form-control-lg {
   color: #98C6A3 !important;
 }
 
+.text-light-sage {
+  --bs-text-opacity: 1;
+  color: #cee4d4 !important;
+}
+
 .text-body {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-body-color-rgb), var(--bs-text-opacity)) !important;
@@ -11377,5 +11382,9 @@ header.masthead .masthead-content .masthead-subheading {
 
 .box-fun {
   box-shadow: 0 0 0 2rem #deede2
+}
+
+.ul {
+  list-style-type: square !important;
 }
 
